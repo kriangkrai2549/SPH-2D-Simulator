@@ -1,7 +1,7 @@
 # SPH Fluid Simulation (C++ / SDL2)
 A high-performance, multithreaded fluid simulation focusing on optimization and physics stability.
 
-![Fluid Simulation Demo](https://via.placeholder.com/800x400?text=Insert+Your+GIF+Link+Here)
+![Fluid Simulation Demo](./demo.gif)
 
 ## Project Overview
 Fluid dynamics is famously difficult for computers to process. While the Navier-Stokes equations are the standard, they are a massive "mathematical headache" to solve directly. This project implements **Smoothed Particle Hydrodynamics (SPH)** to simulate fluid behavior by treating the water as a collection of interacting particles that push and pull each other to reach a "rest density."

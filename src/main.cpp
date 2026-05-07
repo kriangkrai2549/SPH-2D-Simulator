@@ -225,7 +225,7 @@ int main(int argc, char* argv[]){
     //Draw every thing on canvas
     draw.set_background(WHITE_GRAY);
     draw.draw_particle(BLUE_TRAN,particles,radius_particle); 
-    draw.draw_circle_not_fill(RED,x_mouse,y_mouse,interact_radius * scale); //Show interaction radius
+    // draw.draw_circle_not_fill(RED,x_mouse,y_mouse,interact_radius * scale); //Show interaction radius
 
     // copies your pixel_buffer → SDL texture (CPU side)
     draw.update_texture();
